@@ -1,0 +1,10 @@
+{
+  "name": "magpie-workbuddy-responses",
+  "version": "1.0.0",
+  "description": "Magpie gateway middleware for WorkBuddy Responses API (@responses alias + usage sanitizer)",
+  "type": "module",
+  "magpie": {
+    "middleware": "./fix-responses-usage.middleware.js"
+  },
+  "license": "MIT"
+}
